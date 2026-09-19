@@ -1,0 +1,2 @@
+Development_rows,Heldout_rows,Selected_panel,Selected_head,Mean_CV_R2,CV_R2_SD,Mean_CV_RMSE,CV_RMSE_SD,Mean_CV_MAE,CV_MAE_SD,Mean_CV_Spearman,CV_Spearman_SD,Heldout_R2,Heldout_RMSE,Heldout_MAE,Heldout_nRMSE,Heldout_nMAE,Heldout_Spearman,Synthetic_rows
+42,11,Heparin_pB_buffer; BVP_high; Heparin_RT; SEC_LMW_4wk_40C,MLP,0.533,0.129,167.147,10.593,123.392,11.531,0.737,0.107,0.6666545412334655,142.72920614374263,113.50885094105115,0.18972053306411532,0.15087983945166464,0.8272727272727273,63

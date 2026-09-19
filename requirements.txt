@@ -1,0 +1,10 @@
+# Numerical verification, cached conventional models, postprocessing and image exports.
+# For neural fitting, use a separate Python 3.11 environment and requirements-training.txt.
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+scikit-learn>=1.4,<1.9
+matplotlib>=3.8,<4
+pyyaml>=6,<7
+Pillow>=10,<13
+# CairoSVG is optional; the demo falls back to Pillow when Cairo is unavailable.

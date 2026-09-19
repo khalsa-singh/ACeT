@@ -1,0 +1,12 @@
+# Versions recorded for the manuscript environment.
+# Use the project's existing environment; do not install over it blindly.
+numpy==1.23.5
+pandas==2.2.2
+scipy==1.15.2
+scikit-learn==1.4.1.post1
+tensorflow==2.15.0
+keras==2.15.0
+sdv==1.17.4
+tfkan==0.1.0
+ImbalancedLearningRegression==0.0.2
+imbalanced-learn==0.12.2

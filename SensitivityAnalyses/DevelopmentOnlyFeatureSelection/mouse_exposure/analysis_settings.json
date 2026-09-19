@@ -1,0 +1,11 @@
+{
+  "task": "regression", "head": "mlp", "head_selection_evidence": "author-confirmed development CV; complete five-head log not included",
+  "seed": 0, "n_splits": 5, "embed_dim": 32, "num_heads": 2, "ff_dim": 48,
+  "num_transformer_blocks": 1, "mlp_units": [64], "l2_reg": 0.001,
+  "synthetic_rows": 63, "native_row_copies": 2, "batch_size": 32,
+  "epochs_max": 1000, "learning_rate": 0.001, "early_stopping_patience": 20,
+  "lr_factor": 0.5, "lr_patience": 10, "min_lr": 1e-12,
+  "cv_sd_ddof": 0, "holdout_source": "raw selected-assay table, unchanged",
+  "ensemble_convention": "average fold predictions in transformed target space; inverse with final fold target transformer",
+  "cv_scope": "selection scores on the duplicated, augmented development table; not nested CV"
+}

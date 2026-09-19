@@ -1,0 +1,4 @@
+endpoint,seeds,n_splits,n_pooled_test_predictions,pooled_median_abs_log10_error,pooled_p75_abs_log10_error,pooled_within_2x_pct,pooled_within_3x_pct,median_spearman_across_splits,median_test_r2_across_splits,p25_test_r2_across_splits,p75_test_r2_across_splits,median_test_spearman_across_splits,median_test_nrmse_across_splits,selected_head_mode,balanced_accuracy_mean,balanced_accuracy_std,balanced_accuracy_min,balanced_accuracy_max,log_loss_mean,log_loss_std,log_loss_min,log_loss_max,n_seeds
+viscosity,0-5,6,138,0.081690792,0.180837676,99.27536232,100,0.743830881,0.71689426,,,,,kan,,,,,,,,,
+clearance,0-5,6,,,,,,,0.658909195,0.486718041,0.734249142,0.718181818,0.225106871,spline,,,,,,,,,
+clinical_external,0-10,,,,,,,,,,,,,mlp,0.806818182,0.046669372,0.708333333,0.875,0.614793874,0.058626123,0.489651258,0.717580231,11

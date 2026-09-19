@@ -1,0 +1,7 @@
+Endpoint,Model,Valid_candidates,Selected_trial_id,Selected_mean_CV_R2,Selected_mean_CV_RMSE,Parameters_JSON
+mouse_exposure,RandomForest,150,100,0.4618638682292427,163.59327817295372,"{""bootstrap"": true, ""criterion"": ""friedman_mse"", ""max_depth"": 18, ""max_features"": 0.55, ""max_samples"": 1.0, ""min_samples_leaf"": 1, ""min_samples_split"": 3, ""n_estimators"": 300}"
+mouse_exposure,Ridge,1320,739,0.2867984637182376,190.72516495915835,"{""alpha"": 10.0, ""fit_intercept"": true, ""solver"": ""lsqr"", ""tol"": 0.001}"
+mouse_exposure,SVR,220,87,0.4437217428421665,170.7232757387944,"{""C"": 53482.5295532328, ""epsilon"": 99.27227202088022, ""gamma"": 38.71248349245616, ""shrinking"": false, ""tol"": 0.0011591498342834712}"
+viscosity,RandomForest,150,93,0.6987002486345727,5.607111735663095,"{""bootstrap"": false, ""criterion"": ""absolute_error"", ""max_depth"": 10, ""max_features"": 0.25, ""max_samples"": null, ""min_samples_leaf"": 1, ""min_samples_split"": 7, ""n_estimators"": 1000}"
+viscosity,Ridge,1320,660,0.5331963702904137,7.007407008764689,"{""alpha"": 1.0, ""fit_intercept"": true, ""solver"": ""lsqr"", ""tol"": 0.01}"
+viscosity,SVR,220,21,0.6898846733912855,5.727488662681633,"{""C"": 9708.426003446573, ""epsilon"": 1.422340561940926, ""gamma"": 97.53199426855817, ""shrinking"": false, ""tol"": 0.0068832588843529205}"

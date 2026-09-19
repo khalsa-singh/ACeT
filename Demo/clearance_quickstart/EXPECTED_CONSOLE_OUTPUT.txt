@@ -1,0 +1,9 @@
+Mouse-exposure demonstration: archived metrics reproduced.
+n = 11
+R2 = 0.810019
+RMSE = 107.750765
+nRMSE = 0.143226
+MAE = 79.293470
+Spearman rho = 0.909091
+CDF markers (50/75/90%) = 6.01% / 16.58% / 40.42%
+Metrics

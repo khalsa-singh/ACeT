@@ -1,0 +1,5 @@
+Model,Mean_development_CV_R2_plus_minus_SD,Heldout_R2,Heldout_RMSE_cP,Heldout_MAE_cP,Heldout_Spearman_rho
+ACeT (matched primary analysis),0.6210 ± 0.2115,0.7409,4.7663,3.0832,0.8759
+Tuned Ridge,0.5332 ± 0.1286,0.5288,6.4274,5.0717,0.7872
+Tuned RBF-SVR,0.6899 ± 0.1583,0.3058,7.8017,6.3357,0.7245
+Tuned random forest,0.6987 ± 0.1153,0.3716,7.4226,5.3239,0.7571

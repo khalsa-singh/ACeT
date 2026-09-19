@@ -1,0 +1,22 @@
+Rule family,Rule,Threshold or flag requirement,"Approvals retained, n/13","Terminations flagged, n/10",Approval-retention rate,Termination-detection rate,Balanced accuracy,MCC,Accuracy
+Published single-assay,BVP,> 4.3,13/13,5/10,1.0000000000,0.5000000000,0.7500000000,0.6009252126,0.7826086957
+Published single-assay,AS,> 0.08,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Published single-assay,ELISA,> 1.9,12/13,4/10,0.9230769231,0.4000000000,0.6615384615,0.3882901374,0.6956521739
+Published single-assay,AC-SINS,> 11.8,12/13,3/10,0.9230769231,0.3000000000,0.6115384615,0.2917558183,0.6521739130
+Published single-assay,PSR,> 0.27,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Training-optimized single-assay,BVP,> 3.1572,11/13,5/10,0.8461538462,0.5000000000,0.6730769231,0.3729338686,0.6956521739
+Training-optimized single-assay,AS,> 0.05,10/13,4/10,0.7692307692,0.4000000000,0.5846153846,0.1823232246,0.6086956522
+Training-optimized single-assay,ELISA,> 1.826,12/13,4/10,0.9230769231,0.4000000000,0.6615384615,0.3882901374,0.6956521739
+Training-optimized single-assay,AC-SINS,> 11.2,12/13,3/10,0.9230769231,0.3000000000,0.6115384615,0.2917558183,0.6521739130
+Training-optimized single-assay,PSR,> 0.0,10/13,7/10,0.7692307692,0.7000000000,0.7346153846,0.4692307692,0.7391304348
+Published multi-flag heuristic,At least 1 of 5 published flags,>= 1 flag,11/13,7/10,0.8461538462,0.7000000000,0.7730769231,0.5547552233,0.7826086957
+Published multi-flag heuristic,At least 2 of 5 published flags,>= 2 flags,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Published multi-flag heuristic,At least 3 of 5 published flags,>= 3 flags,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Published multi-flag heuristic,At least 4 of 5 published flags,>= 4 flags,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Published multi-flag heuristic,All 5 published flags,5 flags,13/13,1/10,1.0000000000,0.1000000000,0.5500000000,0.2430862174,0.6086956522
+Training-optimized multi-flag heuristic,At least 1 of 5 training-optimized flags,>= 1 flag,6/13,8/10,0.4615384615,0.8000000000,0.6307692308,0.2722178615,0.6086956522
+Training-optimized multi-flag heuristic,At least 2 of 5 training-optimized flags,>= 2 flags,10/13,6/10,0.7692307692,0.6000000000,0.6846153846,0.3750457848,0.6956521739
+Training-optimized multi-flag heuristic,At least 3 of 5 training-optimized flags,>= 3 flags,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Training-optimized multi-flag heuristic,At least 4 of 5 training-optimized flags,>= 4 flags,13/13,4/10,1.0000000000,0.4000000000,0.7000000000,0.5231483638,0.7391304348
+Training-optimized multi-flag heuristic,All 5 training-optimized flags,5 flags,13/13,1/10,1.0000000000,0.1000000000,0.5500000000,0.2430862174,0.6086956522
+Multivariate classifier,ACeT,Two-class softmax argmax (Approved probability 0.5 absent ties),10/13,8/10,0.7692307692,0.8000000000,0.7846153846,0.5649019553,0.7826086957

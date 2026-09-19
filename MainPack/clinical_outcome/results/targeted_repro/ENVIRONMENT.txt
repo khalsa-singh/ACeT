@@ -1,0 +1,14 @@
+Timestamp: 2026-08-05 Asia/Calcutta
+Python: 3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]
+Platform: Windows-10-10.0.26200-SP0
+NumPy: 1.23.5
+pandas: 2.2.2
+scikit-learn: 1.4.1.post1
+TensorFlow: 2.15.0
+imbalanced-learn: 0.12.2
+SciPy: 1.15.2
+matplotlib: 3.9.2
+tfkan: 0.1.0
+Model run seed: 0
+Metrics bootstrap seed: 20260805
+TensorFlow log reports oneDNN enabled.

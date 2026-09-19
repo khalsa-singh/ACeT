@@ -1,0 +1,11 @@
+﻿source_order,source_column,workbook_column,type
+1,DLS Interaction Parameter kD (mL/g),DLS Interaction Parameter kD (mL/g),assay_or_descriptor
+2,SE-UHPLC Main Peak Plates (EP),SE-UHPLC Main Peak Plates (EP),assay_or_descriptor
+3,Heparin Chromatography Conductivity at Elution Start (mS/cm),Heparin Chromatography Conductivity at Elution Start (mS/cm),assay_or_descriptor
+4,Poly-D-Lysine Assay Score,Poly-D-Lysine Assay Score,assay_or_descriptor
+6,PEG Precipitation Conc50 (%),PEG Precipitation Conc50 (%),assay_or_descriptor
+7,AC-SINS DiffC (µm²/s),AC-SINS DiffC (µm²/s),assay_or_descriptor
+8,SE-UHPLC Area Main Peak (AU*min),SE-UHPLC Area Main Peak (AU*min),assay_or_descriptor
+9,mAb-Pac HIC-20 pH 6 retention time (min),mAb-Pac HIC-20 pH 6 retention time (min),assay_or_descriptor
+10,AC-SINS λmax (nm),AC-SINS Δλmax,assay_or_descriptor
+11,SE-UHPLC Main Peak FWHM (min),SE-UHPLC Main Peak FWHM (min),assay_or_descriptor

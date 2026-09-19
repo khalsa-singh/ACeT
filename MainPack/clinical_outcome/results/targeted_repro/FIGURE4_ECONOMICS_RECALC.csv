@@ -1,0 +1,9 @@
+basis,policy,approved_count,terminated_count,TP,FN,FP,TN,TP_B,FN_B,FP_B,TN_B,net_B,diagnostic_only
+internal_prior_expected_N23,ACeT,2.76,20.24,2.123076923076923,0.6369230769230767,4.047999999999999,16.192,19.107692307692307,-5.732307692307691,-8.095999999999998,1.360128,6.639512615384618,False
+internal_prior_expected_N23,develop_all,2.76,20.24,2.76,0.0,20.24,0.0,24.839999999999996,-0.0,-40.48,0.0,-15.64,False
+internal_prior_expected_N23,kill_all,2.76,20.24,0.0,2.76,0.0,20.24,0.0,-24.839999999999996,-0.0,1.70016,-23.139839999999996,False
+external_realized_2_approved_12_terminated,ACeT,2.0,12.0,2.0,0.0,4.0,8.0,18.0,-0.0,-8.0,0.672,10.672,False
+external_realized_2_approved_12_terminated,develop_all,2.0,12.0,2.0,0.0,12.0,0.0,18.0,-0.0,-24.0,0.0,-6.0,False
+external_realized_2_approved_12_terminated,kill_all,2.0,12.0,0.0,2.0,0.0,12.0,0.0,-18.0,-0.0,1.008,-16.992,False
+external_prior_expected_N14_diagnostic,develop_all,1.68,12.32,1.68,0.0,12.32,0.0,15.12,-0.0,-24.64,0.0,-9.520000000000001,True
+external_prior_expected_N14_diagnostic,kill_all,1.68,12.32,0.0,1.68,0.0,12.32,0.0,-15.12,-0.0,1.03488,-14.08512,True

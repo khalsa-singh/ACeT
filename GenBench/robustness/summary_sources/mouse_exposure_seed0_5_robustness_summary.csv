@@ -1,0 +1,2 @@
+n_splits,median_test_r2_across_splits,p25_test_r2_across_splits,p75_test_r2_across_splits,median_test_spearman_across_splits,median_test_nrmse_across_splits,selected_head_mode
+6,0.658909195,0.486718041,0.734249142,0.718181818,0.225106871,spline

@@ -1,0 +1,2 @@
+selected_head,positive_class,operating_threshold,procedure,derivation_cohort
+mlp,Approved,0.5,two-class softmax argmax; equivalent to positive-class probability >= 0.5 absent exact ties,fixed decision rule; not optimized on any cohort

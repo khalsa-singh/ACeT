@@ -1,0 +1,15 @@
+panel,cohort_or_basis,quantity,value
+4a,training_in_sample_ensemble,TP,32
+4a,training_in_sample_ensemble,FN,19
+4a,training_in_sample_ensemble,FP,11
+4a,training_in_sample_ensemble,TN,27
+4a,internal_test,TP,10
+4a,internal_test,FN,3
+4a,internal_test,FP,2
+4a,internal_test,TN,8
+4d,internal_prior_expected_N23,ACeT_net_B,6.63951261538462
+4d,internal_prior_expected_N23,develop_all_net_B,-15.64
+4d,internal_prior_expected_N23,kill_all_net_B,-23.13984
+4d,external_realized_2_approved_12_terminated,ACeT_net_B,10.672
+4d,external_realized_2_approved_12_terminated,develop_all_net_B,-6
+4d,external_realized_2_approved_12_terminated,kill_all_net_B,-16.992

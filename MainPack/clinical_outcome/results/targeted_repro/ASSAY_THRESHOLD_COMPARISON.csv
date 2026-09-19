@@ -1,0 +1,6 @@
+feature,threshold,youden_J,jain_rule_operator,jain_rule_threshold,training_minus_jain_delta,training_threshold_derivation,transformer_derived
+BVP,3.1572000000000005,0.3302373581011353,>,4.3,-1.1427999999999994,raw 89-row internal training set; univariate Youden-J; encoded Terminated class positive; x > threshold,False
+AS,0.05,0.3240454076367389,>,0.08,-0.03,raw 89-row internal training set; univariate Youden-J; encoded Terminated class positive; x > threshold,False
+ELISA,1.8260000000000003,0.2770897832817338,>,1.9,-0.07399999999999962,raw 89-row internal training set; univariate Youden-J; encoded Terminated class positive; x > threshold,False
+ACSINS,11.2,0.1981424148606811,>,11.8,-0.6000000000000014,raw 89-row internal training set; univariate Youden-J; encoded Terminated class positive; x > threshold,False
+PSR,0.0,0.1934984520123839,>,0.27,-0.27,raw 89-row internal training set; univariate Youden-J; encoded Terminated class positive; x > threshold,False

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: Please cite the accompanying article for the scientific method and results. When reusing the
+  implementation or data, also identify this repository and the release or commit used.
+title: ACeT — antibody developability data and software
+type: software
+repository-code: https://github.com/khalsa-singh/ACeT
+url: https://github.com/khalsa-singh/ACeT
+authors:
+- family-names: Virk
+  given-names: Sabitoj Singh
+  orcid: https://orcid.org/0000-0002-5801-5630
+- family-names: Virk
+  given-names: Akashdeep Singh
+  orcid: https://orcid.org/0000-0002-9157-4637
+abstract: Assay-integrated transformer models, curated datasets, analysis workflows and figure/table sources
+  for antibody viscosity, mouse intravenous exposure, HIC retention time and exploratory retrospective
+  clinical-outcome classification.
+keywords:
+- antibody developability
+- monoclonal antibodies
+- interpretable machine learning
+- transformer neural networks
+- viscosity
+- pharmacokinetics
+preferred-citation:
+  type: article
+  title: 'Monoclonal Antibody Developability from Early Assay Panels: Machine Learning for Formulation
+    and Pharmacokinetic Risk'
+  authors:
+  - family-names: Virk
+    given-names: Sabitoj Singh
+    orcid: https://orcid.org/0000-0002-5801-5630
+  - family-names: Virk
+    given-names: Akashdeep Singh
+    orcid: https://orcid.org/0000-0002-9157-4637
+  journal: 'Machine Learning: Health'

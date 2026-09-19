@@ -1,0 +1,43 @@
+panel,cohort,quantity,value,basis
+4a,training_in_sample_ensemble,TP,32.0,current single seed-0 run
+4a,training_in_sample_ensemble,FN,19.0,current single seed-0 run
+4a,training_in_sample_ensemble,FP,11.0,current single seed-0 run
+4a,training_in_sample_ensemble,TN,27.0,current single seed-0 run
+4a,training_in_sample_ensemble,sensitivity,0.6274509803921569,current single seed-0 run
+4a,training_in_sample_ensemble,specificity,0.7105263157894737,current single seed-0 run
+4a,training_in_sample_ensemble,balanced_accuracy,0.6689886480908153,current single seed-0 run
+4a,training_in_sample_ensemble,MCC,0.3345424784209508,current single seed-0 run
+4a,internal_test,TP,10.0,current single seed-0 run
+4a,internal_test,FN,3.0,current single seed-0 run
+4a,internal_test,FP,2.0,current single seed-0 run
+4a,internal_test,TN,8.0,current single seed-0 run
+4a,internal_test,sensitivity,0.7692307692307693,current single seed-0 run
+4a,internal_test,specificity,0.8,current single seed-0 run
+4a,internal_test,balanced_accuracy,0.7846153846153847,current single seed-0 run
+4a,internal_test,MCC,0.5649019553110248,current single seed-0 run
+4a,external_resolved,TP,2.0,current single seed-0 run
+4a,external_resolved,FN,0.0,current single seed-0 run
+4a,external_resolved,FP,4.0,current single seed-0 run
+4a,external_resolved,TN,8.0,current single seed-0 run
+4a,external_resolved,sensitivity,1.0,current single seed-0 run
+4a,external_resolved,specificity,0.6666666666666666,current single seed-0 run
+4a,external_resolved,balanced_accuracy,0.8333333333333333,current single seed-0 run
+4a,external_resolved,MCC,0.47140452079103173,current single seed-0 run
+4b,internal_training,BVP_Jain_threshold,4.3,Jain literature rule
+4b,internal_training,BVP_training_univariate_YoudenJ_threshold,3.1572000000000005,raw 89-row training set only
+4b,internal_training,AS_Jain_threshold,0.08,Jain literature rule
+4b,internal_training,AS_training_univariate_YoudenJ_threshold,0.05,raw 89-row training set only
+4b,internal_training,ELISA_Jain_threshold,1.9,Jain literature rule
+4b,internal_training,ELISA_training_univariate_YoudenJ_threshold,1.8260000000000003,raw 89-row training set only
+4b,internal_training,ACSINS_Jain_threshold,11.8,Jain literature rule
+4b,internal_training,ACSINS_training_univariate_YoudenJ_threshold,11.2,raw 89-row training set only
+4b,internal_training,PSR_Jain_threshold,0.27,Jain literature rule
+4b,internal_training,PSR_training_univariate_YoudenJ_threshold,0.0,raw 89-row training set only
+4c,internal_prior_expected_N23,ACeT_net_B,6.639512615384618,policy comparison basis
+4d,internal_prior_expected_N23,develop_all_net_B,-15.64,policy comparison basis
+4d,internal_prior_expected_N23,kill_all_net_B,-23.139839999999996,policy comparison basis
+4c,external_realized_2_approved_12_terminated,ACeT_net_B,10.672,policy comparison basis
+4d,external_realized_2_approved_12_terminated,develop_all_net_B,-6.0,policy comparison basis
+4d,external_realized_2_approved_12_terminated,kill_all_net_B,-16.992,policy comparison basis
+4d,external_prior_expected_N14_diagnostic,develop_all_net_B,-9.520000000000001,diagnostic only
+4d,external_prior_expected_N14_diagnostic,kill_all_net_B,-14.08512,diagnostic only

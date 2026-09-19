@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv*/
+reruns/
+ReproducedOutputs/
+demo_output/
+rerun_outputs/
+REPRODUCED_OUTPUTS/
+.pytest_cache/
+.DS_Store

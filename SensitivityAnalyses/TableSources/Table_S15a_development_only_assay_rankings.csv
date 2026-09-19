@@ -1,0 +1,20 @@
+﻿Endpoint,Rank,Candidate_assay,Pearson_r,Absolute_r,Selected
+Viscosity,1,SE-UHPLC Main Peak FWHM (min),0.5922362246665437,0.5922362246665437,Yes
+Viscosity,2,DLS Interaction Parameter kD (mL/g),-0.5894394198280704,0.5894394198280704,Yes
+Viscosity,3,SE-UHPLC Main Peak Plates (EP),-0.5863243462738378,0.5863243462738378,Yes
+Viscosity,4,AC-SINS Δλmax,0.47105225463254347,0.47105225463254347,Yes
+Viscosity,5,mAb-Pac HIC-20 pH 6 retention time (min),0.42776965679533396,0.42776965679533396,No
+Viscosity,6,Heparin Chromatography Conductivity at Elution Start (mS/cm),-0.4027801013033533,0.4027801013033533,No
+Viscosity,7,Poly-D-Lysine Assay Score,-0.39094299155932205,0.39094299155932205,No
+Viscosity,8,PEG Precipitation Conc50 (%),-0.22859089974257027,0.22859089974257027,No
+Viscosity,9,SE-UHPLC Area Main Peak (AU*min),0.21545802337530903,0.21545802337530903,No
+Viscosity,10,AC-SINS DiffC (µm²/s),0.06231574212661659,0.06231574212661659,No
+Mouse exposure,1,Heparin %B buffer at elution,-0.5590867571252615,0.5590867571252615,Yes
+Mouse exposure,2,BVP-high binding,-0.501451792417139,0.501451792417139,Yes
+Mouse exposure,3,Heparin retention time,-0.4987915613928858,0.4987915613928858,Yes
+Mouse exposure,4,"SE-UHPLC % LMW, 4 wk, 40 °C",-0.4004831301347916,0.4004831301347916,Yes
+Mouse exposure,5,FcRn retention time,-0.3335720246660346,0.3335720246660346,No
+Mouse exposure,6,Poly-D-lysine binding,-0.3155327837052323,0.3155327837052323,No
+Mouse exposure,7,PEI binding,-0.29242583562094576,0.29242583562094576,No
+Mouse exposure,8,Membrane-preparation binding,-0.28928348116305297,0.28928348116305297,No
+Mouse exposure,9,AC-SINS DiffC,0.24340137881351281,0.24340137881351281,No

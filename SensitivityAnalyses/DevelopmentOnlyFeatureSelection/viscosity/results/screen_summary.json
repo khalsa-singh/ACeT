@@ -1,0 +1,17 @@
+{
+  "scope": "Candidate set",
+  "candidate_assays": 10,
+  "development_antibodies": 52,
+  "statistic": "absolute Pearson correlation",
+  "selected_top4": [
+    "SE-UHPLC Main Peak FWHM (min)",
+    "DLS Interaction Parameter kD (mL/g)",
+    "SE-UHPLC Main Peak Plates (EP)",
+    "AC-SINS Δλmax"
+  ],
+  "top4_matches_archived_model_panel": true,
+  "previous_reference_rows_reproduced": 10,
+  "max_absolute_pearson_difference_from_previous": 0.0,
+  "heldout_file_read": false,
+  "model_retrained": false
+}

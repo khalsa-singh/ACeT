@@ -1,0 +1,10 @@
+{
+  "learning_curve_monotonic_non_decreasing": false,
+  "learning_curve_last_three_slope_r2_per_real_row": 0.014284874630363133,
+  "full_mean_test_r2": 0.7095713740671867,
+  "no_kd_mean_test_r2": 0.28598783758479085,
+  "full_minus_no_kd_mean_r2": 0.4235835364823959,
+  "no_kd_holm_p": 0.0001669177110377983,
+  "top2_mean_test_r2": 0.566257014440302,
+  "ht_assays_mean_test_r2": 0.5109926140304266
+}

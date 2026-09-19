@@ -1,0 +1,36 @@
+{
+  "scope": "Candidate set",
+  "statistic": "absolute Pearson correlation",
+  "development_count": 52,
+  "candidate_count": 10,
+  "source_export": "00_source/development52_candidates.csv",
+  "source_export_sha256": "ae9a429c16cce5a6f907b6b58bfdf538fcc910fb5ea894c1cfd6b0e62a701ee9",
+  "target_source_column": "Viscosity at measured conc near 150 mg/mL (cP)",
+  "development_mapping": "00_source/development_row_mapping.csv",
+  "development_reference": "data/DataS1_viscosity_seed0_train.csv",
+  "candidate_definition": "reference/candidate_definition.csv",
+  "previous_ranking_reference": "reference/MLHealth_Viscosity_Development_Only_Univariate_Association.csv",
+  "previous_ranking_reference_sha256": "2dcd416c725aa8038d036a86c599f84ae1b309acbbafe1b955d9bc4b1c1cf013",
+  "source_workbook": "Supporting Data Tables_Mock_etal_revised.xlsx",
+  "source_sheet": "Table S1 Data",
+  "source_workbook_sha256": "567cd5753754e7030c54a82cd1547af574aa3f082bafea15acb30803d5aed115",
+  "previous_audit_workbook_sha256": "c5a0c121995f7810b7af451bfdf4c163beb95d11516a482f8417c0183c6e55a5",
+  "row_mapping_source": "ROW_MAPPING_75.csv",
+  "row_mapping_source_sha256": "9a70cf0fa2fc8b93ea7fd12329e6c009a0ff9be916d1388ae7a7835630c2d8fc",
+  "reference_panel": [
+    "DLS Interaction Parameter kD (mL/g)",
+    "SE-UHPLC Main Peak Plates (EP)",
+    "AC-SINS Δλmax",
+    "SE-UHPLC Main Peak FWHM (min)"
+  ],
+  "model_column_aliases": {
+    "DLS Interaction Parameter kD (mL/g)": "DLS Interaction Parameter kD (mL/g)",
+    "SE-UHPLC Main Peak Plates (EP)": "SE-UHPLC Main Peak Plates (EP)",
+    "AC-SINS λmax (nm)": "AC-SINS Δλmax",
+    "SE-UHPLC Main Peak FWHM (min)": "SE-UHPLC Main Peak FWHM (min)"
+  },
+  "rank_tie_break": "candidate-definition order",
+  "missingness_rule": "All candidate columns are complete and numeric in all 52 development rows; no imputation or pairwise deletion.",
+  "scope_note": "The candidate set is defined in reference/candidate_definition.csv. Sample pH is not an assay candidate.",
+  "candidate_definition_source_sha256": "5344da840c14d33d1ac421c014660ead815c48ea8a7d7cda177bc3a1e27c1d8c"
+}

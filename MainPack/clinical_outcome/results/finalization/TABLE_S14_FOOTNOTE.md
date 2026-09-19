@@ -1,0 +1,2 @@
+All assay thresholds were fixed before held-out evaluation. Training-optimized thresholds were selected independently for each raw assay by maximizing Youden's J using only the 89-antibody internal training cohort. Multi-flag requirements were pre-specified descriptive analyses and were not selected using the held-out cohort. ACeT predictions were the locked stored predictions. Comparisons are descriptive because of the small held-out sample. Approved was treated as the positive class for the reported Figure 4a sensitivity/specificity convention.
+

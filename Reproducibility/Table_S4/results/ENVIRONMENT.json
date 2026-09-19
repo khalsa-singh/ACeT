@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-08-15T00:09:32",
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "1.23.5",
+  "pandas": "2.2.2",
+  "scikit_learn": "1.4.1.post1",
+  "training_performed": true,
+  "analysis_type": "two deterministic Ridge fits only",
+  "acet_or_tensorflow_run": false,
+  "augmentation_or_resampling": false
+}

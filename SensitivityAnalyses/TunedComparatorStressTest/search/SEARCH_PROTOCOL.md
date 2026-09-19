@@ -1,0 +1,5 @@
+# Search protocol
+
+Development-only deterministic scikit-learn search; search seed `20260901`. No Optuna dependency was used. Hyperparameters were selected by highest mean five-fold CV R2, then lowest mean CV RMSE, then lowest model complexity. Cached fold matrices reproduce the corrected minimal baseline pipeline. Ridge used an exhaustive 33-point log alpha grid crossed with intercept, four solvers, and five tolerances (1,320 candidates per endpoint). SVR used 220 deterministic ParameterSampler candidates per endpoint (180 numeric-gamma and 40 scale/auto). Random Forest used 150 valid deterministic candidates per endpoint after excluding `bootstrap=False` with non-null `max_samples`. Random Forest estimator seed was `0` and `n_jobs=1` was used for deterministic, sandbox-compatible execution.
+
+The `search` phase reads only cached development-fold matrices. It does not open either held-out CSV. The lock file is written and SHA-256 hashed before the separate `heldout` phase may open held-out outcomes. This is a finite development-CV-tuned comparator stress test, not a claim of the best possible model.

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.title{font-size:20px;font-weight:bold}.axis{font-size:13px}.small{font-size:12px}.metric{font-size:14px}</style>
+<text x="40" y="34" class="title">ACeT mouse IV exposure — quick start</text>
+<text x="40" y="57" class="small">Metrics recalculated from 11 archived held-out predictions; parity axes use a logarithmic scale.</text>
+<rect x="75" y="80" width="360" height="330" fill="none" stroke="#222"/>
+<rect x="565" y="80" width="360" height="330" fill="none" stroke="#222"/>
+<line x1="75.00" y1="410.00" x2="435.00" y2="80.00" stroke="#555" stroke-width="1.5"/>
+<circle cx="306.55" cy="209.41" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="369.26" cy="149.42" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="101.26" cy="325.12" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="310.12" cy="209.92" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="300.67" cy="237.28" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="339.82" cy="165.83" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="251.32" cy="184.45" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="213.10" cy="215.84" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="329.46" cy="180.07" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="327.68" cy="180.03" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<circle cx="412.85" cy="94.49" r="5" fill="#2f6f9f" stroke="white" stroke-width="1"/>
+<line x1="121.29" y1="410" x2="121.29" y2="416" stroke="#222"/>
+<text x="121.29" y="433" text-anchor="middle" class="axis">300</text>
+<line x1="69" y1="367.57" x2="75" y2="367.57" stroke="#222"/>
+<text x="65" y="371.57" text-anchor="end" class="axis">300</text>
+<line x1="226.21" y1="410" x2="226.21" y2="416" stroke="#222"/>
+<text x="226.21" y="433" text-anchor="middle" class="axis">500</text>
+<line x1="69" y1="271.39" x2="75" y2="271.39" stroke="#222"/>
+<text x="65" y="275.39" text-anchor="end" class="axis">500</text>
+<line x1="322.75" y1="410" x2="322.75" y2="416" stroke="#222"/>
+<text x="322.75" y="433" text-anchor="middle" class="axis">800</text>
+<line x1="69" y1="182.90" x2="75" y2="182.90" stroke="#222"/>
+<text x="65" y="186.90" text-anchor="end" class="axis">800</text>
+<line x1="406.03" y1="410" x2="406.03" y2="416" stroke="#222"/>
+<text x="406.03" y="433" text-anchor="middle" class="axis">1200</text>
+<line x1="69" y1="106.56" x2="75" y2="106.56" stroke="#222"/>
+<text x="65" y="110.56" text-anchor="end" class="axis">1200</text>
+<text x="255.0" y="475" text-anchor="middle" class="axis">Observed AUCt (stored scale)</text>
+<text x="20" y="245.0" text-anchor="middle" class="axis" transform="rotate(-90 20 245.0)">Predicted AUCt (stored scale)</text>
+<text x="87" y="104" class="metric">R² = 0.810</text>
+<text x="87" y="125" class="metric">nRMSE = 0.143</text>
+<text x="87" y="146" class="metric">Spearman ρ = 0.909</text>
+<path d="M 565.00 410.00 L 570.45 380.00 L 571.26 350.00 L 577.59 320.00 L 587.59 290.00 L 599.17 260.00 L 608.27 230.00 L 621.73 200.00 L 684.41 170.00 L 839.50 140.00 L 856.05 110.00 L 875.85 80.00" fill="none" stroke="#2f6f9f" stroke-width="2.5"/>
+<line x1="565.00" y1="410" x2="565.00" y2="416" stroke="#222"/>
+<text x="565.00" y="433" text-anchor="middle" class="axis">0</text>
+<line x1="637.00" y1="410" x2="637.00" y2="416" stroke="#222"/>
+<text x="637.00" y="433" text-anchor="middle" class="axis">10</text>
+<line x1="709.00" y1="410" x2="709.00" y2="416" stroke="#222"/>
+<text x="709.00" y="433" text-anchor="middle" class="axis">20</text>
+<line x1="781.00" y1="410" x2="781.00" y2="416" stroke="#222"/>
+<text x="781.00" y="433" text-anchor="middle" class="axis">30</text>
+<line x1="853.00" y1="410" x2="853.00" y2="416" stroke="#222"/>
+<text x="853.00" y="433" text-anchor="middle" class="axis">40</text>
+<line x1="925.00" y1="410" x2="925.00" y2="416" stroke="#222"/>
+<text x="925.00" y="433" text-anchor="middle" class="axis">50</text>
+<line x1="559" y1="410.00" x2="565" y2="410.00" stroke="#222"/>
+<text x="555" y="414.00" text-anchor="end" class="axis">0</text>
+<line x1="559" y1="327.50" x2="565" y2="327.50" stroke="#222"/>
+<text x="555" y="331.50" text-anchor="end" class="axis">25</text>
+<line x1="559" y1="245.00" x2="565" y2="245.00" stroke="#222"/>
+<text x="555" y="249.00" text-anchor="end" class="axis">50</text>
+<line x1="559" y1="162.50" x2="565" y2="162.50" stroke="#222"/>
+<text x="555" y="166.50" text-anchor="end" class="axis">75</text>
+<line x1="559" y1="80.00" x2="565" y2="80.00" stroke="#222"/>
+<text x="555" y="84.00" text-anchor="end" class="axis">100</text>
+<text x="745.0" y="475" text-anchor="middle" class="axis">Absolute percentage error (%)</text>
+<text x="517" y="245.0" text-anchor="middle" class="axis" transform="rotate(-90 517 245.0)">Cumulative antibodies (%)</text>
+<text x="577" y="104" class="metric">Median = 6.01%</text>
+<text x="577" y="125" class="metric">75% CDF marker = 16.58%</text>
+<text x="577" y="146" class="metric">90% CDF marker = 40.42%</text>
+</svg>

@@ -1,0 +1,67 @@
+﻿Task/Dataset,Variable,Description,Units,Notes / Source
+"Viscosity 
+(Mock et al.)",DLS Interaction Parameter kD (mL/g),Diffusion interaction parameter from DLS; proxy for net protein-protein interactions in dilute solution.,mL/g,Provided in source dataset.
+"Viscosity 
+(Mock et al.)",SE-UHPLC Main Peak Plates (EP),Theoretical plate count for the main SEC/SE-UHPLC monomer peak (peak sharpness/efficiency).,dimensionless (EP),Peak-shape descriptor from SE-UHPLC.
+"Viscosity 
+(Mock et al.)",AC-SINS Δλmax (nm),AC‑SINS spectral shift (Δλmax) relative to buffer/control; larger positive shifts indicate higher self‑interaction.,nm,AC‑SINS = affinity‑capture self‑interaction nanoparticle spectroscopy; Δλmax ≥ 15 nm is commonly used as a high self‑interaction flag.
+"Viscosity 
+(Mock et al.)",SE-UHPLC Main Peak FWHM (min),Full width at half maximum of the main SEC/SE-UHPLC monomer peak (peak broadening).,"min
+",Peak-shape descriptor from SE-UHPLC.
+"Viscosity 
+(Mock et al.)",Viscosity,Measured viscosity of concentrated antibody solution (prediction target).,cP,Provided as-is from source dataset.
+"Mouse PK 
+(Liu et al.)",Heparin_RT,Retention time on heparin chromatography column.,min,Heparin chromatography is commonly used as a proxy for charge-driven nonspecific interactions.
+"Mouse PK 
+(Liu et al.)",Heparin_pB_buffer,%B buffer at elution in heparin chromatography.,%,Represents elution strength/interaction with heparin column.
+"Mouse PK 
+(Liu et al.)",BVP_high,Baculovirus particle (BVP) binding signal (high condition).,unitless,Proxy for nonspecific interactions.
+"Mouse PK 
+(Liu et al.)",poly_D_lysine,Binding signal to poly‑D‑lysine surface.,unitless,Proxy for charge-driven nonspecific interactions.
+"Mouse PK 
+(Liu et al.)",AUCt,Area under the concentration-time curve to the last sampled timepoint (systemic exposure after IV dosing); stored as AUC0–672h/104.,stored units: 10⁴ ng·h/mL,Higher AUCt generally corresponds to slower clearance. Divide stored values by 100 to express AUCt in the 106 ng·h/mL units used in the manuscript and figures.
+"Clinical outcome 
+(Jain et al.)",AS,Accelerated stability (AS) SEC slope: long-term stability slope calculated from % aggregated measured by SEC during a 30‑day incubation at 40 °C.,%/day,Defined in Jain et al. as “AS SEC slope” computed from % aggregated (SEC) vs time during accelerated stability testing.
+"Clinical outcome 
+(Jain et al.)",PSR,Polyspecificity reagent binding assay.,unitless,Higher values indicate increased polyspecific interactions.
+"Clinical outcome 
+(Jain et al.)",ACSINS,AC‑SINS wavelength shift / readout.,nm,Self-interaction assay.
+"Clinical outcome 
+(Jain et al.)",ELISA,Multi-antigen ELISA readout.,fold-over-background (unitless),Polyspecificity-related readout.
+"Clinical outcome 
+(Jain et al.)",BVP,Baculovirus particle binding assay.,fold-over-background (unitless),Polyspecificity-related readout.
+"Clinical outcome 
+(Jain et al.)",Outcome,Internal-cohort binary label used for training/testing.,Approved / Terminated,Derived from publicly available status annotations as described in the manuscript.
+Clinical outcome (external cohort),Updated.Status,External-cohort label used for independent validation.,Approved / Terminated,As provided in the external cohort file.
+HIC (Bailly et al.),titer_mg_L,Expression titer / concentration.,mg/L,Bailly et al. developability panel.
+HIC (Bailly et al.),up_sec_pct_hmw,SEC % high-molecular-weight species (HMW).,%,Upstream SEC readout.
+HIC (Bailly et al.),up_sec_pct_main,SEC % main monomer peak.,%,Upstream SEC readout.
+HIC (Bailly et al.),up_sec_pct_lmw,SEC % low-molecular-weight species (LMW).,%,Upstream SEC readout.
+HIC (Bailly et al.),up_sec_retention_time_min,SEC retention time of main peak.,min,Upstream SEC readout.
+HIC (Bailly et al.),hp_rp_pct_pre,HP-RP chromatography: % pre-peak fraction.,%,Chromatography peak-area fraction.
+HIC (Bailly et al.),hp_rp_pct_main,HP-RP chromatography: % main-peak fraction.,%,Chromatography peak-area fraction.
+HIC (Bailly et al.),hp_rp_pct_post,HP-RP chromatography: % post-peak fraction.,%,Chromatography peak-area fraction.
+HIC (Bailly et al.),ce_sds_nr_pct_lmw,CE-SDS (non-reduced): % low-molecular-weight species.,%,CE-SDS NR readout.
+HIC (Bailly et al.),ce_sds_nr_pct_main,CE-SDS (non-reduced): % main species.,%,CE-SDS NR readout.
+HIC (Bailly et al.),ce_sds_nr_pct_hmw,CE-SDS (non-reduced): % high-molecular-weight species.,%,CE-SDS NR readout.
+HIC (Bailly et al.),ce_sds_red_pct_lc,CE-SDS (reduced): % light chain (LC).,%,CE-SDS reduced readout.
+HIC (Bailly et al.),ce_sds_red_pct_hc,CE-SDS (reduced): % heavy chain (HC).,%,CE-SDS reduced readout.
+HIC (Bailly et al.),ce_sds_red_pct_others,CE-SDS (reduced): % other species.,%,CE-SDS reduced readout.
+HIC (Bailly et al.),nano_dsf_tonset_c,nanoDSF thermal onset temperature (Tonset).,°C,nanoDSF stability readout.
+HIC (Bailly et al.),nano_dsf_tm1_c,nanoDSF first melting temperature (Tm1).,°C,nanoDSF stability readout.
+HIC (Bailly et al.),nano_dsf_tagg_c,nanoDSF aggregation temperature (Tagg).,°C,nanoDSF stability readout.
+HIC (Bailly et al.),ac_sins_naac_ph_5_5,AC‑SINS λmax (maximum absorbance wavelength) measured in NaOAc buffer (pH 5.5).,nm,AC‑SINS self-interaction assay readout reported as λmax in nm.
+HIC (Bailly et al.),ac_sins_pbs_ph_7_4,AC‑SINS λmax (maximum absorbance wavelength) measured in PBS buffer (pH 7.4).,nm,AC‑SINS self-interaction assay readout reported as λmax in nm.
+HIC (Bailly et al.),low_ph_hold_up_sec_pct_hmw,Post low-pH hold: SEC % HMW.,%,Low-pH stress + SEC.
+HIC (Bailly et al.),low_ph_hold_up_sec_pct_main,Post low-pH hold: SEC % main peak.,%,Low-pH stress + SEC.
+HIC (Bailly et al.),low_ph_hold_up_sec_pct_lmw,Post low-pH hold: SEC % LMW.,%,Low-pH stress + SEC.
+HIC (Bailly et al.),low_ph_hold_up_sec_retention_time_min,Post low-pH hold: SEC retention time.,min,Low-pH stress + SEC.
+HIC (Bailly et al.),cief_pi,Isoelectric point (pI) from cIEF.,pH units,cIEF readout.
+HIC (Bailly et al.),patch_cdr_hyd,Ensemble-average sum of hydrophobic patch surface area proximal to the CDR (structure-based).,Å²,"Structure-derived surface patch area descriptor computed from Fab homology-model ensembles (reported in Bailly et al. as patch surface area, Å²)."
+HIC (Bailly et al.),patch_hyd,Ensemble-average sum of hydrophobic patch surface area over the Fab (structure-based).,Å²,"Structure-derived surface patch area descriptor computed from Fab homology-model ensembles (reported in Bailly et al. as patch surface area, Å²)."
+HIC (Bailly et al.),patch_cdr_ion,Ensemble-average sum of ionic patch surface area proximal to the CDR (structure-based).,Å²,"Structure-derived surface patch area descriptor computed from Fab homology-model ensembles (reported in Bailly et al. as patch surface area, Å²)."
+HIC (Bailly et al.),patch_ion,Ensemble-average sum of ionic patch surface area over the Fab (structure-based).,Å²,"Structure-derived surface patch area descriptor computed from Fab homology-model ensembles (reported in Bailly et al. as patch surface area, Å²)."
+HIC (Bailly et al.),isotype_igg4,"
+Binary indicator for IgG4 isotype (1=IgG4, 0=non-IgG4).
+",binary,Isotype covariate.
+HIC (Bailly et al.),hic_rt_min,Hydrophobic interaction chromatography retention time (developability proxy).,min,Experimental HIC retention time; antibodies that did not elute were set to the maximum of 50 min in the source study.

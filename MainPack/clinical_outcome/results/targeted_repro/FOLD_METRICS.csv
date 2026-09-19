@@ -1,0 +1,6 @@
+head,fold,n_train_original,n_validation,n_after_enn,n_after_smote,balanced_accuracy
+mlp,1,71,18,45,60,0.5
+mlp,2,71,18,41,52,0.7916666666666667
+mlp,3,71,18,41,66,0.8461538461538461
+mlp,4,71,18,38,60,0.65
+mlp,5,72,17,44,66,0.35

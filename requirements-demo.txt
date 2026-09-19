@@ -1,0 +1,2 @@
+# SVG needs only Python. Pillow provides PNG/JPG export without system Cairo.
+Pillow>=10,<13

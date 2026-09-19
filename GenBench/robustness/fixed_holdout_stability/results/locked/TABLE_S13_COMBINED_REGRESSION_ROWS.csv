@@ -1,0 +1,5 @@
+Endpoint,Repeat basis,Summary
+Viscosity — fixed holdout,Five independent training seeds on the unchanged 52/23 manuscript split; fixed KAN head,Held-out R² = 0.710 ± 0.044; RMSE = 5.04 ± 0.36 cP; MAE = 3.26 ± 0.28 cP; Spearman ρ = 0.874 ± 0.021.
+Viscosity — split sensitivity,Six composite-stratified train/test partitions (seeds 0-5); fixed KAN head and current workflow,"Across 138 held-out prediction instances, 94.9% were within twofold and 100.0% were within threefold error. Test membership changed by partition; no aggregate R² is reported."
+Mouse exposure — fixed holdout,Five independent training seeds on the unchanged 42/11 manuscript split; fixed spline head,Held-out R² = 0.784 ± 0.068; nRMSE = 0.151 ± 0.024; nMAE = 0.117 ± 0.019; Spearman ρ = 0.898 ± 0.050.
+Mouse exposure — split sensitivity,Six composite-stratified train/test partitions (seeds 0-5); fixed spline head and current workflow,"Across 66 held-out prediction instances, 51.5% were within 15% and 74.2% were within 30% error. Each partition used a different 11-antibody test set; no aggregate R² is reported."

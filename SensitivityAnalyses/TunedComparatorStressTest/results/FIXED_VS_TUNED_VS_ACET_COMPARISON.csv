@@ -1,0 +1,15 @@
+endpoint,method,configuration,r2,rmse,mae,nrmse,nmae
+viscosity,Ridge,fixed comparator,0.5264622675419364,6.4434,5.0883,,
+viscosity,Ridge,development-CV-tuned comparator,0.52881179845443,6.4273774297064765,5.07174496335197,,
+viscosity,SVR,fixed comparator,0.5359926089163654,6.3782,4.2363,,
+viscosity,SVR,development-CV-tuned comparator,0.30576609810362976,7.8017047144917875,6.335673918452665,,
+viscosity,RandomForest,fixed comparator,0.4787263035725099,6.7604,4.613,,
+viscosity,RandomForest,development-CV-tuned comparator,0.37160394674432884,7.422553286994631,5.323864407364106,,
+viscosity,ACeT,matched Supplementary Table S5,0.740886152354125,4.766306,3.083233,,
+mouse_exposure,Ridge,fixed comparator,0.5984559311015807,,,0.2082,0.1517
+mouse_exposure,Ridge,development-CV-tuned comparator,0.5320123048130414,169.11525932886119,130.19452868335622,0.22479377568200867,0.17305901189530645
+mouse_exposure,SVR,fixed comparator,0.02337111820157467,,,0.3247,0.2338
+mouse_exposure,SVR,development-CV-tuned comparator,0.7311482903628999,128.18050551536055,101.06299021541285,0.17038190354895438,0.1343363765185644
+mouse_exposure,RandomForest,fixed comparator,0.6222425119900954,,,0.202,0.1529
+mouse_exposure,RandomForest,development-CV-tuned comparator,0.6134321687831075,153.70161617632144,115.82442141292603,0.20430543503773407,0.15395777476806513
+mouse_exposure,ACeT,matched Supplementary Table S5,0.7910865813724093,,,0.1502,0.1081
