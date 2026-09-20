@@ -59,7 +59,7 @@ def specification(endpoint,analysis,hic_features,head=None):
             cmd+=['--external_file',str(ext),'--status_col','Updated.Status']
         summary={'development_rows':cfg['rows'][0],'heldout_rows':cfg['rows'][1],'columns':c1}
     # Validate options against the actual source without importing TensorFlow.
-    t=ast.parse(script.read_text());flags=set()
+    t=ast.parse(script.read_text(encoding="utf-8-sig"));flags=set()
     for n in ast.walk(t):
         if isinstance(n,ast.Call) and isinstance(n.func,ast.Attribute) and n.func.attr=='add_argument':
             flags.update(a.value for a in n.args if isinstance(a,ast.Constant) and isinstance(a.value,str))
