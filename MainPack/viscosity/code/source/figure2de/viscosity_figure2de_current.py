@@ -103,7 +103,16 @@ class Tee:
 
     def flush(self) -> None:
         for stream in self.streams:
-            stream.flush()
+            if not getattr(stream, "closed", False):
+                stream.flush()
+
+    def close(self) -> None:
+        """Flush borrowed streams; their owners are responsible for closing them.
+
+        A logging handler may retain this wrapper after the run-log context has
+        closed its file. Leave the console open and skip already-closed streams.
+        """
+        self.flush()
 
 
 @dataclass(frozen=True)
