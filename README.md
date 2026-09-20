@@ -124,10 +124,10 @@ Neural-training commands perform actual model fits, normally five folds per sele
 The publication-style MATLAB producers were developed with MATLAB R2022b. Put `matlab` on the system PATH to use the top-level MATLAB commands, or open MATLAB in the repository root and use the calls shown below. Existing EPS, SVG, PDF and PNG figure exports can be inspected without MATLAB.
 
 ## Quick demonstration
-
 Run:
 
 ```bash
+Set-Location -LiteralPath 'C:\Projects\ACeT'
 python acet.py demo
 ```
 
