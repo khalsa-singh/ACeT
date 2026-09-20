@@ -183,8 +183,29 @@ def verify_archived_screen(root: Path = ROOT) -> dict[str, Any]:
             elif not near(a[col], b[col], 1e-10):
                 raise ValueError("Candidate matrix value mismatch.")
     archived_summary = json.loads((root / "results/screen_summary.json").read_text(encoding="utf-8"))
-    if archived_summary != result["summary"]:
-        raise ValueError("Archived screen summary mismatch.")
+    # The aggregate discrepancy is a floating-point diagnostic, not an identity.
+    # Use the same absolute tolerance as the per-assay checks above. Keep counts,
+    # labels, selected-assay order and Boolean flags exact; do not edit the archive.
+    current_summary = result["summary"]
+    if not isinstance(archived_summary, dict) or set(archived_summary) != set(current_summary):
+        raise ValueError("Archived screen summary keys differ from the recalculated summary.")
+    for key, current_value in current_summary.items():
+        archived_value = archived_summary[key]
+        if key == "max_absolute_pearson_difference_from_previous":
+            tolerance = 1e-12
+            valid_values = all(
+                isinstance(value, (int, float)) and not isinstance(value, bool)
+                and math.isfinite(value) and 0.0 <= value <= tolerance
+                for value in (archived_value, current_value)
+            )
+            matches = valid_values and near(archived_value, current_value, tolerance)
+        else:
+            matches = type(archived_value) is type(current_value) and archived_value == current_value
+        if not matches:
+            raise ValueError(
+                f"Archived screen summary mismatch for {key!r}: "
+                f"archived={archived_value!r}; recalculated={current_value!r}."
+            )
     _, table = read_csv(root.parents[1] / "TableSources/Table_S15a_development_only_assay_rankings.csv")
     table_rows = [row for row in table if row["Endpoint"] == "Viscosity"]
     if len(table_rows) != 10:
