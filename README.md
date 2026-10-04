@@ -1,12 +1,12 @@
 # ACeT — antibody developability from early assay panels
 
-**An assay-integrated transformer framework for formulation, pharmacokinetic and clinical-outcome research.**
+**An assay-integrated transformer framework for antibody developability research.**
 
 **Sabitoj Singh Virk · Akashdeep Singh Virk**
 
-Companion data and software for **“Monoclonal Antibody Developability from Early Assay Panels: Machine Learning for Formulation and Pharmacokinetic Risk”**, *Machine Learning: Health*.
+Companion data and software for **“Monoclonal Antibody Developability from Early Assay Panels: Machine Learning for Formulation and Pharmacokinetic Risk”**, published in *Machine Learning: Health*.
 
-**DOI 10.1088/3049-477X/aeafbf**
+**DOI:** [10.1088/3049-477X/aeafbf](https://doi.org/10.1088/3049-477X/aeafbf)
 
 ACeT combines experimental assay values with learned feature identities, learns interactions between assays through self-attention, and couples the resulting representation to an endpoint-specific prediction head. This repository brings together the datasets, model implementations, archived predictions, benchmark analyses and figure sources for four applications: **high-concentration viscosity, mouse intravenous exposure, HIC retention time, and retrospective clinical-outcome classification**.
 
