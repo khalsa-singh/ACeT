@@ -8,7 +8,7 @@ Companion data and software for **“Monoclonal Antibody Developability from Ear
 
 **Citation** Sabitoj Singh Virk and Akashdeep Singh Virk 2026 Mach. Learn.: Health 2 025023
 
-**DOI:** [10.1088/3049-477X/aeafbf](https://doi.org/10.1088/3049-477X/aeafbf)
+**DOI** [10.1088/3049-477X/aeafbf](https://doi.org/10.1088/3049-477X/aeafbf)
 
 ACeT combines experimental assay values with learned feature identities, learns interactions between assays through self-attention, and couples the resulting representation to an endpoint-specific prediction head. This repository brings together the datasets, model implementations, archived predictions, benchmark analyses and figure sources for four applications: **high-concentration viscosity, mouse intravenous exposure, HIC retention time, and retrospective clinical-outcome classification**.
 
